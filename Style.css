@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: auto;
+
+}
+
+.header {
+    width: 60%;
+    height: 10%;
+    margin: auto;
+}
+
+.nav {
+    width: 99.99%;
+    height: 10%;
+    background: #000;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 10px 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: yellow;
+    background: red;
+}
+
+.nav ul li ul {
+    position: absolute;
+    background: #000;
+    left: -9999px;
+}
+
+.nav ul li:hover ul {
+    left: 0px;
+}
+
+.nav ul li ul li {
+    width: 200px;
+    border-bottom: 2px solid #fff;
+}
+
+.banner-cover {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no;
+    margin-bottom: 10px;
+}
+
+.banner-text {
+    padding: 100px;
+    text-align: center;
+}
+
+.banner-text button {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 0;
+    background: rgb(3, 3, 3);
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.about-logo img {
+    width: 500px;
+    height: auto;
+    margin: 0px 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 10px 0px #000;
+}
+
+.about-text {
+    width: 900px;
+    height: auto;
+    padding: 0px 20px;
+    margin-bottom: auto;
+}
+
+.about-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+.about-text p {
+    font-size: 20px;
+    color: gray;
+    line-height: 22px;
+
+}
+
+.row {
+    overflow: auto;
+}
+
+.col {
+    float: right;
+}
+
+.About-Section {
+    background: #dce7e5;
+    padding: 40px 0px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.About-Section .title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.title {
+    width: 220px;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+    height: auto;
+    text-align: center;
+
+
+}
+
+.service {
+    width: 700px;
+    height: auto;
+    border: 2px solid #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.service h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.service p {
+    font-size: 15px;
+    color: gray;
+    line-height: 22px;
+    padding: 05px;
+}
+
+.service-Section {
+    background: #b7bbb2;
+    padding: 40px 0px;
+    margin-top: 10px;
+}
+
+.service img {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service img:hover {
+    color: yellow;
+    transform: scale(.8);
+}
+
+.contact {
+    background: #fff;
+    padding: 20px 15px 15px 90px;
+    box-shadow: 0px 0px 20px #ccc;
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    margin: 8px 30px;
+
+}
+
+.cont-icon img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    float: left;
+    top: 8px;
+    left: 15px;
+    background: 222px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.cont-icon img:hover {
+    color: yellow;
+    transform: scale(.8);
+}
+
+.cont-text p {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    line-height: 25px;
+
+}
+
+.contact-section {
+    background: #cacaca;
+    padding: 40px 0px;
+    margin-top: 10px;
+}
+
+.contact-from {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.inputTag input {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    width: 50%;
+    border: 0;
+    margin: 8px 420px;
+    text-align: center;
+}
+
+.inputTag textarea {
+    width: 50.99%;
+    margin: 8px 420px;
+    border: 0px;
+}
+
+.inputTag button {
+    width: 50.99%;
+    padding: 10px 0px;
+    background: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4px;
+    border: 0;
+    margin: 8px 420px;
+}
+
+footer {
+    width:90.99%;
+    margin: 0 auto;
+    height: auto;
+    padding: 70px 0px;
+    background: #dce7e5;
+    color: #000000;
+}
+
+footer p {
+    text-align: left;
+    margin: 4px 20px;
+}
+
+.Footer-Text {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.footer-icon {
+    float: right;
+    padding: 0px 50px;
+}
+
+.footer-icon img:hover {
+    color: yellow;
+    transform: scale(.8)
+}
